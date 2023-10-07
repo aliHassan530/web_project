@@ -42,7 +42,7 @@ class _MyAppState extends State<MyApp> {
     return ChangeNotifierProvider<MainProvider>(
       create: (context) => MainProvider(),
       builder: (context, child) => MaterialApp(
-        title: "test again good one",
+        title: "test again good one corect ",
         theme: ThemeData(
           splashColor: kMainColor,
           unselectedWidgetColor: kSecondaryColor,
